@@ -1,0 +1,84 @@
+body{
+	background-color: #1ba0ef;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+.clouds{
+	background-image: url("../img/Cloud.png");
+	background-repeat: no-repeat;
+	background-position: left;  
+	background-size: 1050px;
+	padding-right: 100px;
+	padding-left: 100px;
+	height: 670px;
+}
+
+/* Menu */
+
+.menu{
+	margin-top: 50px;
+}
+
+nav ul {
+    list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	color: #ecf7fe;
+	display:inline-block;
+}
+p {
+	color: #ecf7fe;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: #ecf7fe;
+	text-decoration: underline;
+}
+
+/* Text */
+
+.caption{
+	padding-bottom: 40px;
+	padding-top: 35px;
+	font-size: 27px;
+}
+
+.warning{
+	padding-bottom: 40px;
+}
+
+.description {
+	display: flex;
+	font-size: 13px;
+	padding-bottom: 40px;
+}
+
+.left-description{
+	margin-right: 40px;
+}
+
+.attention{
+	display: flex;
+}
+
+.attention-description{
+	padding-left: 15px;
+}
+
+.footer{
+	margin-top: 175px;
+}
+
+.postscript{
+	margin-top: 27px;	
+}
